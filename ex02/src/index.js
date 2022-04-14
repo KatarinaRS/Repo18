@@ -19,8 +19,8 @@ function* insideGenerator3() {
         yield x;
     }
 }
-const iterator = myGenerator();
-let fifteenArray =[];
+let iterator = myGenerator();
+const fifteenArray =[];
 
 for (let i=0; i < 16 ; i++){
     if(i<16){
